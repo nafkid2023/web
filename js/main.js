@@ -173,7 +173,7 @@ function rebuildPlayer(encodedData, url, event) {
       _playerInstance = null;
 
       // Tentukan background sesuai event
-      let bgImage = "https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/jis.jpg";
+      let bgImage = "https://cdn.jsdelivr.net/gh/nafkid2023/web/img/jis.jpg";
       if (data.nama_event.toLowerCase() === "caf africa cup of nations") {
         bgImage = "https://www.cafonline.com/media/gdgf5rol/agxswzwn76qqeum51its.png";
       } else if (data.nama_event.toLowerCase() === "afc asian cup") {
@@ -221,7 +221,7 @@ function rebuildPlayer(encodedData, url, event) {
       _playerInstance = null;
 
       // Background sesuai event
-      let bgImage = "https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/jis.jpg";
+      let bgImage = "https://cdn.jsdelivr.net/gh/nafkid2023/web/img/jis.jpg";
       if (data.nama_event.toLowerCase() === "caf africa cup of nations") {
         bgImage = "https://www.cafonline.com/media/gdgf5rol/agxswzwn76qqeum51its.png";
       } else if (data.nama_event.toLowerCase() === "afc asian cup") {
@@ -299,7 +299,7 @@ function rebuildPlayer(encodedData, url, event) {
       setFullscreen: true,
       displaytitle: true,
       autostart: true,
-      image: "https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/jis.jpg",
+      image: "https://cdn.jsdelivr.net/gh/nafkid2023/web/img/jis.jpg",
       logo: {
         file: "/engine/pwa/img/duktek-sports-black.png",
         link: 'https://' + _initHostname,
@@ -377,7 +377,7 @@ function rebuildPlayer(encodedData, url, event) {
         setFullscreen: true,
         displaytitle: true,
         autostart: true,
-        image: "https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/jis.jpg",
+        image: "https://cdn.jsdelivr.net/gh/nafkid2023/web/img/jis.jpg",
         logo: {
           file: "/engine/pwa/img/duktek-sports-black.png",
           link: "https://" + _initHostname,
@@ -434,7 +434,7 @@ function rebuildPlayer(encodedData, url, event) {
       setFullscreen: true,
       displaytitle: true,
       autostart: true,
-      image: "https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/jis.jpg",
+      image: "https://cdn.jsdelivr.net/gh/nafkid2023/web/img/jis.jpg",
       logo: {
         file: "/engine/pwa/img/duktek-sports-black.png",
         link: 'https://' + _initHostname,
@@ -499,7 +499,7 @@ var _initPlayer = function (_0x1389a5, _0x4d7856, _0x2ed0aa) {
       } else if (_0x1f411e.nama_event.toLowerCase() == "afc asian cup") {
         $("#player_wrapper").attr("style", "background-image:linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%), url(https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%277196980%27&EntityType=%27LinearSchedule%27&EntityId=%27ec37b5b7-1bec-46ce-9367-d0b37c5029ac%27&Width=1080&Height=608&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27);background-repeat:no-repeat;background-size:cover;background-position:center center;");
       } else {
-        $("#player_wrapper").attr("style", "background-image:linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%), url(https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/jis.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;");
+        $("#player_wrapper").attr("style", "background-image:linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%), url(https://cdn.jsdelivr.net/gh/nafkid2023/web/img/jis.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;");
       }
       var _0x21dee8 = "<div style=\"margin-bottom:8px;font-size:30px;\">" + _countDownPlay(_0x1f411e.jadwal_event) + '</div><div>' + _0x1f411e.player_1 + "&nbsp;<img style=\"max-width:20px!important;border-radius:2px!important\" alt=\"" + _0x1f411e.player_1 + "\" src=\"" + _0x1f411e.logo_1 + "\" height=\"15px\" />&nbsp;" + " vs " + "&nbsp;<img style=\"max-width:20px!important;border-radius:2px!important\" alt=\"" + _0x1f411e.player_2 + "\" src=\"" + _0x1f411e.logo_2 + "\" height=\"15px\" />&nbsp;" + _0x1f411e.player_2 + "</div><div style=\"font-size:15px!important;margin-top:8px;\">Kickoff " + _date(_0x1f411e.jadwal_event) + " " + _time(_0x1f411e.jadwal_event) + '</div>';
       $("#timer").html(_0x21dee8);
@@ -530,7 +530,7 @@ var _initPlayer = function (_0x1389a5, _0x4d7856, _0x2ed0aa) {
         } else if (_0x1f411e.nama_event.toLowerCase() == "afc asian cup") {
           $("#player_wrapper").attr("style", "background-image:linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%), url(https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%277196980%27&EntityType=%27LinearSchedule%27&EntityId=%27ec37b5b7-1bec-46ce-9367-d0b37c5029ac%27&Width=1080&Height=608&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27);background-repeat:no-repeat;background-size:cover;background-position:center center;");
         } else {
-          $('#player_wrapper').attr("style", "background-image:linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%), url(https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/jis.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;");
+          $('#player_wrapper').attr("style", "background-image:linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%), url(https://cdn.jsdelivr.net/gh/nafkid2023/web/img/jis.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center;");
         }
         var _0x21dee8 = "<div style=\"margin-bottom:8px;font-size:30px;\">The Match has Ended</div><div>" + _0x1f411e.player_1 + "&nbsp;<img style=\"max-width:20px!important;border-radius:2px!important\" alt=\"" + _0x1f411e.player_1 + "\" src=\"" + _0x1f411e.logo_1 + "\" height=\"15px\" />&nbsp;" + " vs " + "&nbsp;<img style=\"max-width:20px!important;border-radius:2px!important\" alt=\"" + _0x1f411e.player_2 + "\" src=\"" + _0x1f411e.logo_2 + "\" height=\"15px\" />&nbsp;" + _0x1f411e.player_2 + "</div><div style=\"font-size:15px!important;margin-top:8px;\">Please watch other matches!</div>";
         $("#timer").html(_0x21dee8);
@@ -591,7 +591,7 @@ var _initPlayer = function (_0x1389a5, _0x4d7856, _0x2ed0aa) {
       'setFullscreen': true,
       'displaytitle': true,
       'autostart': true,
-      'image': 'https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/jis.jpg',
+      'image': 'https://cdn.jsdelivr.net/gh/nafkid2023/web/img/jis.jpg',
       'logo': {
         'file': '/engine/pwa/img/duktek-sports-black.png',
         'link': 'https://' + _initHostname,
@@ -980,7 +980,7 @@ $(document).ready(function () {
 		 data-href="https://play.google.com/store/apps/details?id=com.live_streaming_tv.online_tv" 
 		 title="Download BitTV on Play Store." target="_blank">
 		<div style="width:300px;height:250px;border:0px solid;
-					background-image:url(https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/banner-kotak-gplay.png);
+					background-image:url(https://cdn.jsdelivr.net/gh/nafkid2023/web/img/banner-kotak-gplay.png);
 					background-repeat:no-repeat;background-position:0px 0px;
 					background-size:300px 250px;">&nbsp;</div>
 	  </a>
@@ -1191,7 +1191,7 @@ var _reloadMenu = function () {
 		return;
 	  }
 	// Ambil data Sports TV dari file JSON
-	$.get('https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/json/sportstv.json', {}, function (sportsTvData) {
+	$.get('https://cdn.jsdelivr.net/gh/nafkid2023/web/json/sportstv.json', {}, function (sportsTvData) {
 		let htmlContent = '';
 
 		// Kosongkan container sebelum diisi ulang
@@ -1261,7 +1261,7 @@ var _reloadMenu = function () {
 	}, 'json');
 
 	// Ambil data Live TV dari file JSON
-	$.get('https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/json/livetv.json', {}, function (liveTvData) {
+	$.get('https://cdn.jsdelivr.net/gh/nafkid2023/web/json/livetv.json', {}, function (liveTvData) {
 		let htmlContent = '';
 
 		// Kosongkan container sebelum diisi ulang
@@ -1451,7 +1451,7 @@ var _reloadMenu = function () {
 				eventHtml = `
 				  <div class="event_wrapper">
 					<div style="margin-top:50px;height:200px;
-								background:url(https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/no-events.png);
+								background:url(https://cdn.jsdelivr.net/gh/nafkid2023/web/img/no-events.png);
 								background-size:auto 100%;background-repeat:no-repeat;background-position:center;">
 					</div>
 					<div style="text-align:center;font-size:18px;color:#8A8A8A;padding:10px 30px 5px;font-weight:bold;">
@@ -1468,7 +1468,7 @@ var _reloadMenu = function () {
 			eventHtml = `
 			  <div class="event_wrapper">
 				<div style="margin-top:50px;height:200px;
-							background:url(https://cdn.jsdelivr.net/gh/muhammadnashirhaer/duktek/no-events.png);
+							background:url(https://cdn.jsdelivr.net/gh/nafkid2023/web/img/no-events.png);
 							background-size:auto 100%;background-repeat:no-repeat;background-position:center;">
 				</div>
 				<div style="text-align:center;font-size:18px;color:#8A8A8A;padding:10px 30px 5px;font-weight:bold;">
