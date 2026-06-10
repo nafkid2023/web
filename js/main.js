@@ -1162,7 +1162,7 @@ function middleEllipsis(text) {
 }
 
 // Fungsi untuk menampilkan shimmer loading (efek skeleton UI)
-function shimmerLoading() {
+function _simmerLoading() {
   let shimmerTvHtml = '';
   let shimmerEventHtml = '';
 
@@ -1184,7 +1184,6 @@ function shimmerLoading() {
   // Reload menu setelah shimmer ditampilkan
   _reloadMenu();
 }
-
 
 var _reloadMenu = function () {
 	  if (_isIframe) {
