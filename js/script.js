@@ -314,7 +314,7 @@ var _rebuildPlayer = function (_0x22bedd, _0x18a080, _0x49de1a) {
     }).on("ready", function () {
       _isFullScreen = jwplayer().getFullscreen();
     }).on("error", function () {
-      $('.jw-error-text').html("An unexpected error occurred, <span class=\"jw-break jw-reset\"></span>always use <strong>Chrome Browser</strong> or <strong>UC Browser</strong> !!!");
+      $('.jw-error-text').html("An unexpected error occurred, <span class=\"jw-break jw-reset\"></span>always use <strong>Chrome Browser</strong>!!!");
       setTimeout(function () {
         console.log('Replaying');
         _reloadOnError();
@@ -391,7 +391,7 @@ var _rebuildPlayer = function (_0x22bedd, _0x18a080, _0x49de1a) {
         }).on("ready", function () {
           _isFullScreen = jwplayer().getFullscreen();
         }).on("error", function () {
-          $(".jw-error-text").html("An unexpected error occurred, <span class=\"jw-break jw-reset\"></span>always use <strong>Chrome Browser</strong> or <strong>UC Browser</strong> !!!");
+          $(".jw-error-text").html("An unexpected error occurred, <span class=\"jw-break jw-reset\"></span>always use <strong>Chrome Browser</strong>!!!");
           setTimeout(function () {
             console.log('Replaying');
             _reloadOnError();
@@ -472,7 +472,7 @@ var _rebuildPlayer = function (_0x22bedd, _0x18a080, _0x49de1a) {
         }).on("ready", function () {
           _isFullScreen = jwplayer().getFullscreen();
         }).on("error", function () {
-          $(".jw-error-text").html("An unexpected error occurred, <span class=\"jw-break jw-reset\"></span>always use <strong>Chrome Browser</strong> or <strong>UC Browser</strong> !!!");
+          $(".jw-error-text").html("An unexpected error occurred, <span class=\"jw-break jw-reset\"></span>always use <strong>Chrome Browser</strong>!!!");
           setTimeout(function () {
             console.log("Replaying");
             _reloadOnError();
@@ -645,7 +645,7 @@ var _initPlayer = function (_0x1389a5, _0x4d7856, _0x2ed0aa) {
     }).on("ready", function () {
       _isFullScreen = jwplayer().getFullscreen();
     }).on("error", function () {
-      $(".jw-error-text").html("An unexpected error occurred, <span class=\"jw-break jw-reset\"></span>always use <strong>Chrome Browser</strong> or <strong>UC Browser</strong> !!!");
+      $(".jw-error-text").html("An unexpected error occurred, <span class=\"jw-break jw-reset\"></span>always use <strong>Chrome Browser</strong>!!!");
       setTimeout(function () {
         console.log("Replaying");
         _reloadOnError();
