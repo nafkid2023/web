@@ -1101,7 +1101,7 @@ var _reloadMenu = function () {
     _initDuktekSports();
     document.getElementById("live_tv_container").scrollTop = getCookie("entertainment_scroll_position");
   }, 'json');
-  $.get("https://cdn.jsdelivr.net/gh/nafkid2023/web/json/events.json", {
+  $.get("https://raw.githubusercontent.com/nafkid2023/web/main/json/events.json", {
     '_stamp': btoa(_timeMinute())
   }, function (_0x5bbffa) {
     $("#events_container").html('');
