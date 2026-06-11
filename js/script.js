@@ -326,7 +326,7 @@ var _rebuildPlayer = function (_0x22bedd, _0x18a080, _0x49de1a) {
     if (_0x367781.jenis == "dash-clearkey") {
       var _0x4a699a = _0x367781.url_license.split(':');
       if (navigator.onLine) {
-        var _0x55fa7b = "http://localhost/fcm/web/duktek/player.html/?type=dash-clearkey&v=" + btoa(btoa(btoa(_0x367781.url_iptv) + ':' + btoa(_0x4a699a[0x0]) + ':' + btoa(_0x4a699a[0x1])));
+        var _0x55fa7b = "https://veros-player.blogspot.com/?type=dash-clearkey&v=" + btoa(btoa(btoa(_0x367781.url_iptv) + ':' + btoa(_0x4a699a[0x0]) + ':' + btoa(_0x4a699a[0x1])));
         var _0x52ef4e = "<iframe width=\"100%\" height=\"100%\" src=\"" + _0x55fa7b + "&amp;controls=0\" title=\"" + _0x367781.nama_channel + " - Duktek TV\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";
         $("#embed_youtube").html(_0x52ef4e);
         $("#embed_youtube").show();
